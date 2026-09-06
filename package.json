@@ -7,8 +7,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start:file": "node fsAndExports/app.js",
-    "start:http": "node HttpServer/app.js"
+    "start": "node index.js"
+    
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
