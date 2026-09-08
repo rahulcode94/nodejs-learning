@@ -12,4 +12,8 @@
 //require("./RestAPIandEXP/app")
 //require("./RestAPIandEXP/practice")
 
-require("./MongodbANDNode/app")
+//require("./MongodbANDNode/app")
+//require("./MongodbANDNode/practice")
+
+//mvc
+require("./MVC/index")
