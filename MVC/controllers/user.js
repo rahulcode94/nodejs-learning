@@ -7,7 +7,7 @@ async function handleGetAllUser(req, res) {
 
 async function handleGetUerById(req, res) {
     const user = await User.findById(req.params.id);
-    if (!user) return res.status(404).json({ error: "User not found" });
+    if (!user) return res.status(404).json({ error: "User not found" }); 
     return res.json(user)
 
 }
